@@ -1,0 +1,22 @@
+{
+    "name": "computer/phpmvc-fram",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "core/helpers/config.php",
+            "core/helpers/apphelper.php",
+            "core/helpers/sessionhelper.php",
+            "core/helpers/viewhelper.php"
+        ]
+    },
+    "authors": [{
+        "name": "Lorena Meci",
+        "email": "lorena_meci.fshnstudent@unitir.edu.al"
+    }],
+    "require": {
+        "psr/container": "^1.0"
+    }
+}

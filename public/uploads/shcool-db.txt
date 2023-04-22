@@ -1,0 +1,8 @@
+create table users( 
+id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+firstname varchar(128) not null,
+lastname varchar(1000) not null,
+date datetime not null,
+user_id varchar(1000) not null,
+    
+);
